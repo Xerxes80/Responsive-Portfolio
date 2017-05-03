@@ -45,16 +45,12 @@ header{
 .top-bar2 a:hover{
     text-decoration: underline;
 }
-.main-container{
-    clear: both; 
-    height: auto;
-    overflow: auto;
-}
+
 .container{
-    margin-top: 10px;
+    
     height: auto;
     width: 80%;
-    margin:0 10% 10px 10%;
+    margin:40px 10%;
     overflow: auto;
 }
 .container-left{
@@ -180,12 +176,9 @@ footer{
 }
                         /* media 980 */
 @media screen and (max-width: 980px) {
-.main-container{
-    width: 100%;
-}
 .container{
     width: 80%;
-    margin:0 10%;
+    margin:40px 10%;
     overflow: auto;
 }
 .container-left{
@@ -206,12 +199,10 @@ footer{
 }
                     /* media 768 */
 @media screen and (max-width: 768px) {
-.main-container{
-    width: 100%;
-}
+
 .container{
     width: 80%;
-    margin:0 10%;
+    margin:40px 10%;
     overflow: auto;
 }
 .container-left{
@@ -231,7 +222,7 @@ footer{
 }
 .container-right{
     width: 100%;
-    margin:10px 0;
+    margin:40px 0;
 }
 .img{
     margin:0 5%; 
@@ -240,12 +231,10 @@ footer{
                     /* media 640 */
 
 @media screen and (max-width: 640px) {
-.main-container{
-    width: 100%;
-}
+
 .container{
     width: 80%;
-    margin:0 10%;
+    margin:40px 10%;
     overflow: auto;
 }
 .container-left{
@@ -266,7 +255,7 @@ footer{
 }
 .container-right{
     width: 100%;
-    margin:10px 0;
+    margin:40px 0;
 }
 header{
     height: 140px;
